@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/doubleSlider.css">
+</head>
+<body>
+    <div id="sliderContainer">
+            <img class="bigImg" src = "images/picture1.jpg">
+            <button class='slider__arrow slider__arrow_prev'>&lt;</button>
+            <button class='slider__arrow slider__arrow_next'>&gt;</button>
+        <div class="hiddenBlock">
+            <div class="wrapper">
+                <div class="slideEl elem1"><img src="images/picture1_small.jpg"></div>
+                <div class="slideEl elem2"><img src="images/picture2_small.jpg"></div>
+                <div class="slideEl elem3"><img src="images/picture3_small.jpg"></div>
+                <div class="slideEl elem4"><img src="images/picture4_small.jpg"></div>
+                <div class="slideEl elem5"><img src="images/picture5_small.jpg"></div>
+                <div class="slideEl elem6"><img src="images/picture6_small.jpg"></div>
+                <div class="slideEl elem7"><img src="images/picture7_small.jpg"></div>
+                <div class="slideEl elem8"><img src="images/picture8_small.jpg"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/doubleSlider.js"></script>
+    <script>
+        var slider1 = new Slider('#sliderContainer');
+    </script>
+</body>
+</html>
